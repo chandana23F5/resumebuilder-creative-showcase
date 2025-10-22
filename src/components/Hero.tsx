@@ -10,7 +10,7 @@ const Hero = () => {
     // Create a simple text-based resume
     const resumeContent = `
 KOMMAJOSYULA SAI CHANDANA
-Computer Science Student | Full Stack Developer
+Computer Science Student | Backend Developer
 
 Contact:
 Email: kavchandru1998p@gmail.com
@@ -98,7 +98,7 @@ Generated from portfolio: ${window.location.href}
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
             Computer Science Student passionate about{' '}
-            <span className="text-primary font-semibold">Full Stack Development</span> and building{' '}
+            <span className="text-primary font-semibold">Backend Development</span> and building{' '}
             <span className="text-secondary font-semibold">innovative solutions</span>
           </p>
           

@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="text-center md:text-left">
             <h3 className="text-2xl font-bold text-gradient-primary mb-2">Sai Chandana</h3>
-            <p className="text-muted-foreground">Full Stack Developer | Problem Solver | Innovation Enthusiast</p>
+            <p className="text-muted-foreground">Backend Developer | Problem Solver | Innovation Enthusiast</p>
           </div>
 
           <div className="flex gap-6">
