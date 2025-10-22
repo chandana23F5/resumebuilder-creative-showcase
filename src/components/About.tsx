@@ -19,7 +19,7 @@ const About = () => {
             </h3>
             <p className="text-lg text-muted-foreground leading-relaxed">
               I'm a Computer Science student with a strong interest in building real-world software solutions. 
-              Currently exploring full-stack development and problem-solving through personal projects and coding challenges.
+              Currently exploring backend development and problem-solving through personal projects and coding challenges.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
               I'm an innovation-focused professional with strategic thinking and adaptability. 

@@ -19,7 +19,7 @@ GitHub: https://github.com/chandana23F5
 LinkedIn: https://www.linkedin.com/in/sai-chandana-kommajosyula-507128240
 
 OBJECTIVE:
-I'm a Computer Science student with a strong interest in building real-world software solutions. I'm currently exploring full-stack development and problem-solving through personal projects and coding challenges. I'm an innovation focused professional with strategic thinking and adaptability. I'm looking for an internship where I can apply my technical skills, learn from experienced developers, and grow through hands-on experience in a collaborative environment.
+I'm a Computer Science student with a strong interest in building real-world software solutions. I'm currently exploring backend development and problem-solving through personal projects and coding challenges. I'm an innovation focused professional with strategic thinking and adaptability. I'm looking for an internship where I can apply my technical skills, learn from experienced developers, and grow through hands-on experience in a collaborative environment.
 
 EDUCATION:
 CMR Institute of Technology Hyd (2023-2027)
