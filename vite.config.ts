@@ -5,6 +5,9 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  // IMPORTANT: This base path matches your GitHub repository name
+  base: '/resumebuilder-creative-showcase/',
+  
   server: {
     host: "::",
     port: 8080,
