@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail, Download, ArrowDown, Code } from "lucide-react";
+import profilePhoto from "@/assets/profile-photo.jpg";
 
 const Hero = () => {
   const scrollToSection = (id: string) => {
@@ -85,6 +86,14 @@ Generated from portfolio: ${window.location.href}
       
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
+          <div className="mb-8">
+            <img 
+              src={profilePhoto} 
+              alt="Sai Chandana" 
+              className="w-40 h-40 rounded-full mx-auto border-4 border-primary shadow-lg object-cover"
+            />
+          </div>
+          
           <div className="inline-block mb-6 px-4 py-2 bg-card border border-border rounded-full">
             <span className="text-sm text-muted-foreground">👋 Welcome to my portfolio</span>
           </div>
@@ -153,36 +162,42 @@ Generated from portfolio: ${window.location.href}
             >
               <Mail className="h-6 w-6" />
             </a>
-            <a 
-              href="https://leetcode.com/u/23r01a05f5/" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="p-3 bg-card border border-border rounded-full hover:border-secondary hover:glow-secondary transition-all duration-300 hover:-translate-y-1"
-              aria-label="LeetCode"
-              title="LeetCode Profile"
-            >
-              <Code className="h-6 w-6" />
-            </a>
-            <a 
-              href="https://codeforces.com/profile/23r01a05f5" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="p-3 bg-card border border-border rounded-full hover:border-secondary hover:glow-secondary transition-all duration-300 hover:-translate-y-1"
-              aria-label="CodeForces"
-              title="CodeForces Profile"
-            >
-              <Code className="h-6 w-6" />
-            </a>
-            <a 
-              href="https://www.codechef.com/users/c23r01a05f5" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="p-3 bg-card border border-border rounded-full hover:border-secondary hover:glow-secondary transition-all duration-300 hover:-translate-y-1"
-              aria-label="CodeChef"
-              title="CodeChef Profile"
-            >
-              <Code className="h-6 w-6" />
-            </a>
+            <div className="flex flex-col items-center gap-2">
+              <a 
+                href="https://leetcode.com/u/23r01a05f5/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="p-3 bg-card border border-border rounded-full hover:border-secondary hover:glow-secondary transition-all duration-300 hover:-translate-y-1"
+                aria-label="LeetCode"
+              >
+                <Code className="h-6 w-6" />
+              </a>
+              <span className="text-xs text-muted-foreground">LeetCode</span>
+            </div>
+            <div className="flex flex-col items-center gap-2">
+              <a 
+                href="https://codeforces.com/profile/23r01a05f5" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="p-3 bg-card border border-border rounded-full hover:border-secondary hover:glow-secondary transition-all duration-300 hover:-translate-y-1"
+                aria-label="CodeForces"
+              >
+                <Code className="h-6 w-6" />
+              </a>
+              <span className="text-xs text-muted-foreground">CodeForces</span>
+            </div>
+            <div className="flex flex-col items-center gap-2">
+              <a 
+                href="https://www.codechef.com/users/c23r01a05f5" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="p-3 bg-card border border-border rounded-full hover:border-secondary hover:glow-secondary transition-all duration-300 hover:-translate-y-1"
+                aria-label="CodeChef"
+              >
+                <Code className="h-6 w-6" />
+              </a>
+              <span className="text-xs text-muted-foreground">CodeChef</span>
+            </div>
           </div>
         </div>
       </div>
