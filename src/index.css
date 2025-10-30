@@ -8,51 +8,51 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 220 20% 8%;
-    --foreground: 180 10% 95%;
+    --background: 240 35% 8%;
+    --foreground: 210 20% 98%;
 
-    --card: 220 18% 12%;
-    --card-foreground: 180 10% 95%;
+    --card: 240 30% 12%;
+    --card-foreground: 210 20% 98%;
 
-    --popover: 220 18% 12%;
-    --popover-foreground: 180 10% 95%;
+    --popover: 240 30% 12%;
+    --popover-foreground: 210 20% 98%;
 
-    --primary: 170 75% 45%;
-    --primary-foreground: 220 20% 8%;
+    --primary: 14 90% 65%;
+    --primary-foreground: 240 35% 8%;
 
-    --secondary: 25 85% 60%;
-    --secondary-foreground: 220 20% 8%;
+    --secondary: 180 85% 55%;
+    --secondary-foreground: 240 35% 8%;
 
-    --muted: 220 15% 18%;
-    --muted-foreground: 180 8% 65%;
+    --muted: 240 20% 18%;
+    --muted-foreground: 210 15% 65%;
 
-    --accent: 170 75% 45%;
-    --accent-foreground: 220 20% 8%;
+    --accent: 180 85% 55%;
+    --accent-foreground: 240 35% 8%;
 
     --destructive: 0 70% 55%;
-    --destructive-foreground: 180 10% 95%;
+    --destructive-foreground: 210 20% 98%;
 
-    --border: 220 15% 20%;
-    --input: 220 15% 20%;
-    --ring: 170 75% 45%;
+    --border: 240 25% 20%;
+    --input: 240 25% 20%;
+    --ring: 14 90% 65%;
 
-    --radius: 0.75rem;
+    --radius: 1rem;
 
-    --gradient-primary: linear-gradient(135deg, hsl(170 75% 45%), hsl(180 70% 50%));
-    --gradient-secondary: linear-gradient(135deg, hsl(25 85% 60%), hsl(15 80% 55%));
-    --gradient-accent: linear-gradient(135deg, hsl(170 75% 45%), hsl(25 85% 60%));
+    --gradient-primary: linear-gradient(135deg, hsl(14 90% 65%), hsl(25 85% 60%));
+    --gradient-secondary: linear-gradient(135deg, hsl(180 85% 55%), hsl(190 80% 50%));
+    --gradient-accent: linear-gradient(135deg, hsl(14 90% 65%), hsl(180 85% 55%));
     
-    --glow-primary: 0 0 40px hsl(170 75% 45% / 0.4);
-    --glow-secondary: 0 0 40px hsl(25 85% 60% / 0.4);
+    --glow-primary: 0 0 50px hsl(14 90% 65% / 0.5);
+    --glow-secondary: 0 0 50px hsl(180 85% 55% / 0.5);
 
-    --sidebar-background: 220 18% 12%;
-    --sidebar-foreground: 180 10% 95%;
-    --sidebar-primary: 170 75% 45%;
-    --sidebar-primary-foreground: 220 20% 8%;
-    --sidebar-accent: 220 15% 18%;
-    --sidebar-accent-foreground: 180 10% 95%;
-    --sidebar-border: 220 15% 20%;
-    --sidebar-ring: 170 75% 45%;
+    --sidebar-background: 240 30% 12%;
+    --sidebar-foreground: 210 20% 98%;
+    --sidebar-primary: 14 90% 65%;
+    --sidebar-primary-foreground: 240 35% 8%;
+    --sidebar-accent: 240 20% 18%;
+    --sidebar-accent-foreground: 210 20% 98%;
+    --sidebar-border: 240 25% 20%;
+    --sidebar-ring: 14 90% 65%;
   }
 }
 
@@ -92,19 +92,19 @@ All colors MUST be HSL.
   }
 
   .text-gradient-primary {
-    @apply bg-gradient-to-r from-primary to-[hsl(180,70%,50%)] bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-primary to-[hsl(25,85%,60%)] bg-clip-text text-transparent;
   }
 
   .text-gradient-secondary {
-    @apply bg-gradient-to-r from-secondary to-[hsl(15,80%,55%)] bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-secondary to-[hsl(190,80%,50%)] bg-clip-text text-transparent;
   }
 
   .geometric-pattern {
     background-image: 
-      linear-gradient(30deg, hsl(170 75% 45% / 0.05) 12%, transparent 12.5%, transparent 87%, hsl(170 75% 45% / 0.05) 87.5%, hsl(170 75% 45% / 0.05)),
-      linear-gradient(150deg, hsl(170 75% 45% / 0.05) 12%, transparent 12.5%, transparent 87%, hsl(170 75% 45% / 0.05) 87.5%, hsl(170 75% 45% / 0.05)),
-      linear-gradient(30deg, hsl(170 75% 45% / 0.05) 12%, transparent 12.5%, transparent 87%, hsl(170 75% 45% / 0.05) 87.5%, hsl(170 75% 45% / 0.05)),
-      linear-gradient(150deg, hsl(170 75% 45% / 0.05) 12%, transparent 12.5%, transparent 87%, hsl(170 75% 45% / 0.05) 87.5%, hsl(170 75% 45% / 0.05));
+      linear-gradient(30deg, hsl(14 90% 65% / 0.03) 12%, transparent 12.5%, transparent 87%, hsl(14 90% 65% / 0.03) 87.5%, hsl(14 90% 65% / 0.03)),
+      linear-gradient(150deg, hsl(180 85% 55% / 0.03) 12%, transparent 12.5%, transparent 87%, hsl(180 85% 55% / 0.03) 87.5%, hsl(180 85% 55% / 0.03)),
+      linear-gradient(30deg, hsl(14 90% 65% / 0.03) 12%, transparent 12.5%, transparent 87%, hsl(14 90% 65% / 0.03) 87.5%, hsl(14 90% 65% / 0.03)),
+      linear-gradient(150deg, hsl(180 85% 55% / 0.03) 12%, transparent 12.5%, transparent 87%, hsl(180 85% 55% / 0.03) 87.5%, hsl(180 85% 55% / 0.03));
     background-size: 80px 140px;
     background-position: 0 0, 0 0, 40px 70px, 40px 70px;
   }
