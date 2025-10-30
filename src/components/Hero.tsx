@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Github, Linkedin, Mail, Download, ArrowDown } from "lucide-react";
+import { Github, Linkedin, Mail, Download, ArrowDown, Code } from "lucide-react";
 
 const Hero = () => {
   const scrollToSection = (id: string) => {
@@ -127,12 +127,13 @@ Generated from portfolio: ${window.location.href}
             </Button>
           </div>
           
-          <div className="flex gap-6 justify-center">
+          <div className="flex gap-6 justify-center flex-wrap">
             <a 
               href="https://github.com/chandana23F5" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 bg-card border border-border rounded-full hover:border-primary hover:glow-primary transition-all duration-300 hover:-translate-y-1"
+              aria-label="GitHub"
             >
               <Github className="h-6 w-6" />
             </a>
@@ -141,14 +142,46 @@ Generated from portfolio: ${window.location.href}
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 bg-card border border-border rounded-full hover:border-primary hover:glow-primary transition-all duration-300 hover:-translate-y-1"
+              aria-label="LinkedIn"
             >
               <Linkedin className="h-6 w-6" />
             </a>
             <a 
               href="mailto:kavchandru1998p@gmail.com"
               className="p-3 bg-card border border-border rounded-full hover:border-primary hover:glow-primary transition-all duration-300 hover:-translate-y-1"
+              aria-label="Email"
             >
               <Mail className="h-6 w-6" />
+            </a>
+            <a 
+              href="https://leetcode.com/u/23r01a05f5/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="p-3 bg-card border border-border rounded-full hover:border-secondary hover:glow-secondary transition-all duration-300 hover:-translate-y-1"
+              aria-label="LeetCode"
+              title="LeetCode Profile"
+            >
+              <Code className="h-6 w-6" />
+            </a>
+            <a 
+              href="https://codeforces.com/profile/23r01a05f5" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="p-3 bg-card border border-border rounded-full hover:border-secondary hover:glow-secondary transition-all duration-300 hover:-translate-y-1"
+              aria-label="CodeForces"
+              title="CodeForces Profile"
+            >
+              <Code className="h-6 w-6" />
+            </a>
+            <a 
+              href="https://www.codechef.com/users/c23r01a05f5" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="p-3 bg-card border border-border rounded-full hover:border-secondary hover:glow-secondary transition-all duration-300 hover:-translate-y-1"
+              aria-label="CodeChef"
+              title="CodeChef Profile"
+            >
+              <Code className="h-6 w-6" />
             </a>
           </div>
         </div>
