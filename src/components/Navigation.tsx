@@ -33,26 +33,26 @@ const Navigation = () => {
     <nav 
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled 
-          ? 'bg-background/95 backdrop-blur-lg border-b border-border' 
+          ? 'bg-background/80 backdrop-blur-lg border-b border-border' 
           : 'bg-transparent'
       }`}
     >
       <div className="container mx-auto px-6">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-20">
           <button 
             onClick={() => scrollToSection('home')}
-            className="text-xl font-bold text-gradient-primary"
+            className="text-2xl font-bold text-gradient-primary"
           >
-            Portfolio
+            SC
           </button>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-6">
+          <div className="hidden md:flex items-center gap-8">
             {navItems.map((item) => (
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className="text-foreground hover:text-primary transition-colors text-sm font-medium"
+                className="text-foreground hover:text-primary transition-colors font-medium"
               >
                 {item.label}
               </button>
@@ -72,8 +72,8 @@ const Navigation = () => {
 
         {/* Mobile Navigation */}
         {isMobileMenuOpen && (
-          <div className="md:hidden py-4 border-t border-border bg-background/95 backdrop-blur-lg">
-            <div className="flex flex-col gap-2">
+          <div className="md:hidden py-6 border-t border-border bg-background/95 backdrop-blur-lg">
+            <div className="flex flex-col gap-4">
               {navItems.map((item) => (
                 <button
                   key={item.id}
